@@ -1,3 +1,6 @@
+import subprocess
+subprocess.run(["python", "postinstall.py"], check=True)
+
 import streamlit as st
 from patient_summary_logic import PatientSummaryProcessor
 from dotenv import load_dotenv
